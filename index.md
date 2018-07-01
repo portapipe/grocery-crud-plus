@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## This is Grocery CRUD PLUS
 
-You can use the [editor on GitHub](https://github.com/portapipe/grocery-crud-plus/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Based on [Grocery CRUD](https://www.grocerycrud.com) (from now on GC and GC+) by scoumbourdis, this project will aim to create an always work-in-progress addon to the main library.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Every module will be available freely on the github project page, plus the versioning will help you to find any old module you need.
 
-### Markdown
+### Why I should use it
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+First of all you don't have to, but if you'll use it you'll have more from GC, and this is a community project, so you can ask or pull your own module based on what you really need.
+
+### Installation
+
+There are a model and a module's folder that has to be placed on the application/model folder.
+
+
+### How to use it
 
 ```markdown
-Syntax highlighted code block
+$this->load->library("grocery_CRUD_Plus");
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [the official Wiki](https://github.com/portapipe/grocery-crud-plus/wiki).
 
-### Jekyll Themes
+### Support
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/portapipe/grocery-crud-plus/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Having trouble to understand how it works? Check the [the official Wiki](https://github.com/portapipe/grocery-crud-plus/wiki) first.
+Still have some questions? Open an [request](https://github.com/portapipe/grocery-crud-plus/issues).
 
-### Support or Contact
+### What's next?
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I want to be clear: this is an open project and I expect not only me but anyone that want something to help increase the modules, so the functionality, of GC.
+Anyone using GC knows that scoumbourdis want it the more stable as it could be and this is one of the main reason GC is so popular, but the more you use, the deep you go, the more stuff you need. That's why we've created GC+ (portapipe with scoumbourdis, but ask portapipe for anything!).
+
+
