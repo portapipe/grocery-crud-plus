@@ -26,13 +26,24 @@
  * @author     	portapipe
  * @link		http://plus.grocerycrud.com/documentation
  */
-class Grocery_crud_plus_model  extends CI_Model  {
+if(!class_exists("Grocery_crud_model")) include("Grocery_crud_model.php");
+class Grocery_crud_plus_model  extends Grocery_crud_model  {
 
 
 	function __construct()
     {
         parent::__construct();
+        
+		$directory = APPPATH.'models/GCPlus_modules/';
+		$files = array_diff(scandir($directory), array('..', '.'));
+        foreach($files as $v){
+	        include("GCPlus_modules/$v");
+        }
     }
-
+    
+    function __call($functionName, $args) {
+       if(function_exists($functionName))  
+         return call_user_func_array($functionName, $args);
+    }	
 
 }
