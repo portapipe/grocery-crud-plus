@@ -17,7 +17,6 @@ There are a model and a module's folder that has to be placed on the application
 
 ```markdown
 $this->load->library("grocery_CRUD_Plus");
-
 ```
 
 For more details see [the official Wiki](https://github.com/portapipe/grocery-crud-plus/wiki).
